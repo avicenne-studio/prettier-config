@@ -1,0 +1,33 @@
+{
+  "name": "@avicenne-studio/prettier-config",
+  "version": "1.0.0",
+  "description": "Avicenne Studio's shareable Prettier configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avicenne-studio/prettier-config.git"
+  },
+  "files": [
+    "./index.js"
+  ],
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
+  "author": "Aurélien <git@garnier.dev> (https://garnier.dev)",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@avicenne-studio/eslint-config": "^1.0.12",
+    "@avicenne-studio/prettier-config": "^1.0.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
+  },
+  "peerDependencies": {
+    "prettier": ">= 3"
+  }
+}
