@@ -2,6 +2,8 @@
 
 This library contains the [Prettier](https://prettier.io) configuration used by [Avicenne Studio](https://avicenne.studio).
 
+Consider using the [TypeScript configuration bundle](https://npm.im/@avicenne-studio/typescript-config) instead of this library directly.
+
 ## Installing the library
 
 ```bash
@@ -10,10 +12,10 @@ npm install --save-dev @avicenne-studio/prettier-config
 
 ## Using the library
 
-To use the library, you'll need to add the following to your `.prettierrc.js` file:
+To use the library, you'll need to add the following to your `.prettierrc.json` file:
 
-```js
-module.exports = "@avicenne-studio/prettier-config";
+```json
+"@avicenne-studio/prettier-config"
 ```
 
 ## Publishing updates

@@ -8,7 +8,7 @@
     "url": "git+https://github.com/avicenne-studio/prettier-config.git"
   },
   "files": [
-    "./index.js"
+    "index.js"
   ],
   "keywords": [
     "prettier",
@@ -22,8 +22,8 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@avicenne-studio/eslint-config": "^1.0.12",
-    "@avicenne-studio/prettier-config": "^1.0.0",
+    "@avicenne-studio/eslint-config": "^1.0.15",
+    "@avicenne-studio/prettier-config": "*",
     "eslint": "^8.56.0",
     "prettier": "^3.2.4"
   },
